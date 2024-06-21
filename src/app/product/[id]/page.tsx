@@ -34,7 +34,7 @@ async function SingleProduct(params: Params) {
   );
   return (
     <div className=" place-items-center h-full mt-10">
-      <div className="card lg:card-side  shadow-xl mx-auto p-5 bg-base-300 w-full gap-10 items-center justify-center ">
+      <div className="card lg:card-side  mx-auto p-5 shadow-lg w-full gap-10 items-center justify-center ">
         <figure>
           <img src={data.thumbnail} alt="Album" />
         </figure>
