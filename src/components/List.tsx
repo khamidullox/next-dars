@@ -16,12 +16,12 @@ async function List() {
 
   return (
     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 ml-10">
-      {products.map((item: Item) => {
+      {products.map((item: Item, i: number) => {
         return (
           <div
             // href={`/product/${item.id}`}
             className="card w-96 bg-base-100 shadow-xl"
-            key={item.id}
+            key={i}
           >
             <figure>
               <img src={item.thumbnail} alt="Shoes" />
