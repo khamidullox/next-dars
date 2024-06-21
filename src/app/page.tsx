@@ -1,7 +1,12 @@
+import List from "@/components/List";
 import React from "react";
 
 function Home() {
-  return <div>Home</div>;
+  return (
+    <>
+      <List />
+    </>
+  );
 }
 
 export default Home;
